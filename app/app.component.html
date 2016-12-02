@@ -1,0 +1,14 @@
+<ActionBar title="Tour of Heroes"></ActionBar>
+
+<FlexboxLayout flexDirection="column">
+
+    <FlexboxLayout flexDirection="row" flexShrink="0">
+        <Button text="Dashboard" [nsRouterLink]="['/dashboard']"></Button>
+        <Button text="Heroes" [nsRouterLink]="['/heroes']"></Button>    
+    </FlexboxLayout>
+
+    <router-outlet>
+
+    </router-outlet>
+
+</FlexboxLayout>
